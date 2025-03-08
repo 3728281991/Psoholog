@@ -1,12 +1,11 @@
 import os
+os.system("pip install python-telegram-bot requests")
 import logging
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import re
 import asyncio
-
-os.system("pip install python-telegram-bot requests")
 
 # Настройка логирования
 logging.basicConfig(
