@@ -1,3 +1,5 @@
+import os
+os.system("pip install python-telegram-bot requests")
 import logging
 import requests
 from telegram import Update
